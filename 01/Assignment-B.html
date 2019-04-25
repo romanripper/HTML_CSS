@@ -1,0 +1,87 @@
+<html style="background-color: rgb(196, 199, 19)">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+
+    <!-- Assignment-D
+    <link rel="stylesheet" href="Assignment-D.css"> -->
+
+
+    <style>
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #list {
+            width: 160.5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center">Send information about your money</h1>
+    <form style="text-align: center" name="SendSomeInformation" action="http://robbers.com" method="POST">
+
+        <table class="center">
+            <tr>
+                <th class="important">Surname:</th>
+                <td><input type="text" name="surname"></td>
+            </tr>
+            <tr>
+                <th class="important">Password:</th>
+                <td><input type="password" name="passoword"></td>
+            </tr>
+            <tr>
+                <th class="important">Country:</th>
+                <td>
+                    <select name="coutries" id="list">
+                                <option value="Argentina">Argentina</option>
+                                <option value="Belgium" >Belgium</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Poland" selected="selected">Poland</option>
+                                <option value="UK">UK</option>
+                                <option value="USA">USA</option>
+                     </select>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <span class="important">Place and amount of money</span>
+        <br>
+        <textarea cols="30" rows="4" style="margin-bottom: 10px"></textarea>
+        <br>
+
+        <table class="center">
+            <thead><strong>Main Currency</strong></thead>
+            <tr>
+                <td>US dollars</td>
+                <td><input type="radio" name="currency" value="dollars"></td>
+            </tr>
+            <tr>
+                <td>Euro</td>
+                <td><input type="radio" name="currency" value="euro"></td>
+            </tr>
+            <tr>
+                <td>Złoty</td>
+                <td><input type="radio" name="currency" value="złoty"></td>
+            </tr>
+        </table>
+
+        <input type="checkbox" value="I agree" name="agree">
+        <span style="font-size:x-small" class="important">I agree that my money could be stolen</span>
+
+        <br>
+        <table class="center">
+            <tr>
+                <td><input type="submit" value="Submit" name="submitRequest"></td>
+                <td><input type="reset"></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+p,
+h1,
+h5 {
+    background-color: rgb(18, 172, 211);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+
+table {
+    border-color: rgba(20, 220, 20, 0.664);
+    border-style: double;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+ul {
+    list-style-type: lower-greek
+}

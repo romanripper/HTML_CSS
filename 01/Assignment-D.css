@@ -1,0 +1,8 @@
+form>* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+
+.important {
+    color: rgb(200, 0, 0)
+}
